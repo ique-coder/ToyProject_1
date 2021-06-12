@@ -1,0 +1,31 @@
+.MessageBox {
+	margin: 5px;
+	padding: 5px;
+	font-size: 15px;
+	
+	&__user {
+		font-width: 600;
+	}
+	
+	&__message {
+		max-width: 200px;
+		display: inline-block;
+		margin-left: 15px;
+		padding: 5px 5px;
+		border-radius: 5px;
+	}
+	
+	&__me {
+		float: right;
+		right: 15px;
+		background-color: #FFF01B;
+	}
+	
+	&__public {
+		background-color: white;
+	}
+	
+	&__private {
+		background-color: #DBF0E8;
+	}
+}

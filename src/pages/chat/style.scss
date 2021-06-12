@@ -1,0 +1,20 @@
+.Chat {
+	min-width: 300px;
+	width: 46%;
+	margin: 1%;
+	padding: 1%;
+	border: 1px solid lightgray;
+	
+	p {
+		margin: 0;
+		padding: 0;
+	}
+	
+	&__chat_board {
+		display: flex;
+		flex-direction: column;
+		height: 600px;
+		background-color: #B2C7D9;
+		overflow: auto;
+	}
+}
